@@ -5,36 +5,6 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "paths": {
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@config/*": [
-        "src/config/*"
-      ],
-      "@hooks/*": [
-        "src/hooks/*"
-      ],
-      "@pages/*": [
-        "src/pages/*"
-      ],
-      "@routes/*": [
-        "src/routes/*"
-      ],
-      "@store/*": [
-        "src/store/*"
-      ],
-      "@styles/*": [
-        "src/styles/*"
-      ],
-      "@/*": [
-        "src/*"
-      ]
-    }
   },
   "include": ["vite.config.ts"]
 }
