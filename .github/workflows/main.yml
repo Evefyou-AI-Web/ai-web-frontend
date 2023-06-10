@@ -23,7 +23,10 @@ jobs:
         run: |
           pnpm install
       - name: print
-        run: pwd
+        run: |
+          pwd
+          ll
+          cd .. & ll
       - name: build
         run: |
           pnpm run build
