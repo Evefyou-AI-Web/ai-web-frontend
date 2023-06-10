@@ -1,4 +1,4 @@
-import { FC, PropsWithChildren, useEffect, useRef, useState } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import { AppContext } from './useAppContext';
 import { prefixCls as defaultPrefixCls } from '@/config';
 

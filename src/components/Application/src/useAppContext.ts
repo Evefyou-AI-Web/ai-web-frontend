@@ -1,4 +1,4 @@
-import { Context, createContext, useContext } from 'react';
+import { createContext, useContext } from 'react';
 import { prefixCls } from '@/config';
 
 export interface AppContextProps {
