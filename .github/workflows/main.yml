@@ -19,9 +19,17 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 6.0.2
-      - name: install and build
+      - name: print
+        run: |
+          pwd
+          ls
+          cd ..
+          ls
+      - name: install 
         run: |
           pnpm install
+      - name: build
+        run: |
           pnpm run build
     
       - name: Configure Docker
