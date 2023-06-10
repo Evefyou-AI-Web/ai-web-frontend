@@ -1,4 +1,4 @@
-import { useAppContext } from "@/components/Application";
+import { useAppContext } from "@components/Application";
 
 export function useDesign(scope: string) {
   const values = useAppContext();
