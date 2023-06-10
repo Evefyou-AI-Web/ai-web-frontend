@@ -1,0 +1,186 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+overflow: hidden;
+}
+
+section {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+perspective: 1000px;
+}
+
+.ai-web-login .color {
+position: absolute;
+filter: blur(150px);
+}
+
+.ai-web-login .color:nth-child(1) {
+top: -350px;
+width: 600px;
+height: 600px;
+background: #ff359b;
+}
+
+.ai-web-login .color:nth-child(2) {
+bottom: -150px;
+left: 100px;
+width: 500px;
+height: 500px;
+background: #fffd87;
+}
+
+.ai-web-login .color:nth-child(3) {
+bottom: 50px;
+right: 100px;
+width: 500px;
+height: 500px;
+background: #00d2ff;
+}
+
+.ai-web-login .box .square {
+position: absolute;
+backdrop-filter: blur(5px);
+box-shadow: 0 25px 45px #000000;
+border: 1px solid #ffffff;
+border-right: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+background: #ffffff;
+border-radius: 10px;
+/* animation: animate 10s linear infinite; Remove this line to delete the rotation */
+/* animation-delay: calc(-1s*var(--i)); You should also remove this line */
+}
+
+.ai-web-login .square:nth-child(2) {
+top: 150px;
+left: -100px;
+width: 120px;
+height: 120px;
+z-index: 2;
+}
+
+.ai-web-login .square:nth-child(3) {
+bottom: 50px;
+right: -60px;
+width: 80px;
+height: 80px;
+z-index: 2;
+}
+
+.ai-web-login .square:nth-child(4) {
+bottom: -80px;
+left: 100px;
+width: 50px;
+height: 50px;
+}
+
+.ai-web-login .square:nth-child(5) {
+top: -90px;
+left: 140px;
+width: 60px;
+height: 60px;
+}
+
+.ai-web-login .container {
+position: relative;
+width: 400px;
+min-height: 400px;
+background: #ffffff;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+backdrop-filter: blur(5px);
+box-shadow: 0 25px 45px #000000, 0 10px 20px rgba(0, 0, 0, 0.3);
+/* Add 3D shadow effect */
+border: 1px solid #ffffff;
+border-right: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+transform: rotateX(10deg) rotateY(10deg);
+/* Add initial rotation */
+transition: transform 0.5s;
+/* Add transition for smooth rotation */
+}
+
+.ai-web-login .container:hover {
+transform: rotateX(0deg) rotateY(0deg);
+/* Rotate back to normal position when mouse hovers */
+}
+
+.ai-web-login .form {
+position: relative;
+height: 100%;
+width: 100%;
+padding: 40px;
+}
+
+.ai-web-login .form h2 {
+position: relative;
+color: #fff;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 1px;
+margin-bottom: 40px;
+}
+
+.ai-web-login .form h2::before {
+content: '';
+position: absolute;
+left: 0;
+bottom: -10px;
+width: 80px;
+height: 4px;
+background: #fff;
+}
+
+.ai-web-login .form .inputBox {
+width: 100%;
+margin-top: 20px;
+}
+
+.ai-web-login .form .inputBox input {
+width: 100%;
+background: #ffffff;
+border: none;
+outline: none;
+padding: 10px 20px;
+border-radius: 35px;
+border: 1px solid #ffffff;
+border-right: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+font-size: 16px;
+letter-spacing: 1px;
+color: #fff;
+box-shadow: 0 5px 15px #000000;
+}
+
+.ai-web-login .form .inputBox input::placeholder {
+color: #fff;
+}
+
+.ai-web-login .form .inputBox input[type="submit"] {
+background: #fff;
+color: #666;
+max-width: 100px;
+cursor: pointer;
+margin-bottom: 20px;
+font-weight: 600;
+}
+
+.ai-web-login .forget {
+margin-top: 5px;
+color: #fff;
+}
+
+.ai-web-login .forget a {
+color: #fff;
+font-weight: 600;
+}

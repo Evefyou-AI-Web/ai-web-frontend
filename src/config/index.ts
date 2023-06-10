@@ -1,0 +1,1 @@
+export const prefixCls = 'ai-web';
