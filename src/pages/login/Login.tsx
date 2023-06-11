@@ -61,8 +61,10 @@ export const Login: React.FC = () => {
 
                             </div>
 
+
                             <p className="forget">Forget Password ??<a href="#" onClick={() => {
                                 alert('login...everyone')
+
                             }}>Click Here</a></p>
 
                             <p className="forget">Don't have an account ?<a href="#">Sign up</a></p>
