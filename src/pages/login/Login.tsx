@@ -57,14 +57,12 @@ export const Login: React.FC = () => {
 
                             <div className="inputBox">
 
-                                <input type="submit" value="Login" onClick={() => {
-                                alert('login...')
-                            }}/>
+                                <input type="submit" value="Login"/>
 
                             </div>
 
                             <p className="forget">Forget Password ??<a href="#" onClick={() => {
-                                alert('login...')
+                                alert('login...evef')
                             }}>Click Here</a></p>
 
                             <p className="forget">Don't have an account ?<a href="#">Sign up</a></p>
