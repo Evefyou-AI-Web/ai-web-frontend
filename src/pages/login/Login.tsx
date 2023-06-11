@@ -8,6 +8,8 @@ export const Login: React.FC = () => {
     //     rotatingBox.style.animation = "none";
     // };
 
+
+
     const { prefixCls } = useDesign('login')
 
     return (
@@ -59,7 +61,9 @@ export const Login: React.FC = () => {
 
                             </div>
 
-                            <p className="forget">Forget Password ?<a href="#">Click Here</a></p>
+                            <p className="forget">Forget Password ?<a href="#" onClick={() => {
+                                alert('login...')
+                            }}>Click Here</a></p>
 
                             <p className="forget">Don't have an account ?<a href="#">Sign up</a></p>
 
